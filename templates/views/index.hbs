@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MainPage</title>
+</head>
+<link rel="stylesheet" href="css/styles.css"/>
+
+<body>
+{{>header}}
+
+   
+<div class="flex-container">
+  <div><a href="/registerPage">Register</a></div>
+  <div><a href="/loginPage">Login</a></div>
+  <div><a href="/homePage">Home</a></div>
+</div>
+
+
+    <br><br>
+   <p>This is HBS index page</p>
+     
+    <button onclick="btnclick()">Click here</button>
+    <p id="simpleText"></p>
+    <br><br>
+{{>footer}}
+
+</body>
+</html>
+<script src="js/home.js"></script>
